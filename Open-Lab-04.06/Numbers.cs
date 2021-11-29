@@ -6,7 +6,17 @@ namespace Open_Lab_04._06
     {
         public int[] NoOdds(int[] numbers)
         {
-            throw new NotImplementedException();
+              for (int i = 0; i <= 100; i++)
+        {
+            if (IsEven(i))
+            {
+                Console.WriteLine(i);
+            }
+        }
+              public static bool IsEven(int value)
+       {
+        return value % 2 == 0;
+        }
         }
     }
 }
